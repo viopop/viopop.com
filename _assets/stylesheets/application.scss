@@ -1,0 +1,54 @@
+header.main, footer { background: #fff; border-bottom: 1px solid #ddd; padding: 25px 0; }
+header.main nav a { margin-left: 5px; }
+.logo-text { float: left; background: url(image-path('logo-text.png')) no-repeat center center; background-size: 100%; width: 196px; height: 35px; text-indent: -9999px; }
+
+#hero { background: url(image-path('palms.jpg')) no-repeat top center; background-size: cover; padding: 150px 0; }
+.hero-inner {
+  color: #fff;
+  .logo-icon { display: inline-block; background: url(image-path('logo-icon.png')) no-repeat center center #fff; background-size: 42px 35px; width: 200px; height: 200px; border-radius: 100px; }
+  h1 { margin-top: 50px; font-size: 50px; }
+}
+
+.ha-block {
+  padding: 80px 0;
+  .ha-inner-block > div, .ha-inner-block > a { border: 1px solid transparent; background: #f5f5f5; border-radius: 5px; height: 225px; padding: 15px; }
+  h1 { margin-top: 0; color: #333; }
+  h4 { margin: 30px 0 40px; }
+  .btn-lg { margin-top: 40px; text-transform: uppercase; }
+}
+
+.ha-about {}
+
+.ha-projects {
+  background: #f5f5f5;
+  .ha-inner-block > a {
+    display: block; background: #fff;
+    &:hover { text-decoration: none; border-color: #ddd; }
+  }
+}
+
+.ha-contact {
+  color: #fff;
+  h1 { color: #fff; }
+  background: url(image-path('contact.jpg')) no-repeat center center; background-size: cover;
+}
+
+footer {
+  border-bottom: 0; border-top: 1px solid #ddd; padding: 40px 0;
+  a { padding: 0 10px; }
+  p { margin: 15px 0 25px 0; color: #999; font-size: 11px; }
+  .logo-icon { display: inline-block; background: url(image-path('logo-icon.png')) no-repeat center center #fff; background-size: 100%; width: 42px; height: 35px; }
+}
+
+header.post-header {
+  color: #fff; background: url(image-path('palms.jpg')) no-repeat top center; background-size: cover; padding: 40px 0;
+  h1 { margin: 0; color: #fff; }
+  p { margin: 15px 0 0 0; }
+}
+
+.post { padding: 60px 0; }
+
+a {
+  color: #777;
+  &:hover { color: #333; }
+}
